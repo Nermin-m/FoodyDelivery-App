@@ -1,0 +1,57 @@
+
+/* Dashboard Styles */
+.dashboard {
+    position: absolute;
+    width: 256px;
+    height: 474px;
+    left: 16px;
+    right: -16px;
+    top: 80px;
+    bottom: -80px;
+    border-radius: 14px;
+    color: white;
+    background-color: rgb(199, 79, 235);
+}
+
+.text {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0.1px;
+    text-align: left;
+}
+
+.dashboard1 {
+    border-radius: 4px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    /* opacity: 0.1; */
+    /* Remove or comment out this line */
+
+}
+
+.move {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin-left: 30px;
+
+}
+
+.dashboard1 img {
+    margin-top: 15px;
+}
+
+.text {
+    margin-top: 18px;
+    color: white;
+    opacity: 1;
+    margin-left: 27px;
+    /* Set opacity to 1 for the p element to make it fully visible */
+}

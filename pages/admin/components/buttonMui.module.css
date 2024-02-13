@@ -1,0 +1,30 @@
+.MainDiv {
+    width: 948px;
+    height: 721px;
+    background: rgb(56, 57, 78);
+}
+
+.mainDivP {
+    color: rgb(199, 199, 199);
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1%;
+    text-align: left;
+    margin-left: 28px;
+}
+
+
+.Clickible {
+    background: rgb(56, 57, 78);
+
+}
+
+.ImageUploader {
+    border-radius: 14px;
+
+    background: rgb(67, 68, 90);
+    width: 526px;
+    height: 122px;
+}
