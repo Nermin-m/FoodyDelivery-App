@@ -6,7 +6,7 @@ import logo from "../../images/logo.svg";
 import Language from "../../ui/language";
 import clientLogin from "../../images/loginClient.svg";
 import ClientloginPage from "../../components/loginPage/clientloginPage";
-
+//Login Page
 const Index:NextPage = () => {
     return (
         <div>
