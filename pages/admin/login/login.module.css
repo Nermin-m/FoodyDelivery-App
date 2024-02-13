@@ -1,0 +1,92 @@
+/* styles.module.css */
+
+.text {
+    color: #F5F5F5;
+    text-align: start;
+    font-family: Mukta;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: 0.84px;
+    margin-left: 30px;
+}
+
+.nokta {
+    color: #EAAB00;
+}
+
+.maindiv {
+    width: 825px;
+    height: 411px;
+    flex-shrink: 0;
+    background-color: #38394E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 120px;
+}
+
+.maindivtext {
+    padding-top: 35px;
+    color: #C7C7C7;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.button {
+    width: 318.805px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #C035A2;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 500;
+    cursor:pointer;
+}
+
+.logindiv { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 26px;
+    width: 422.44px;
+    height: 408px;
+    background: rgb(56, 57, 78);
+}
+
+
+.input {
+    width: 318.805px;
+    height: 50px;
+    flex-shrink: 0;
+    background: #5A5B70;
+    color: #C7C7C7;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+}
+
+.input::placeholder {
+    color: #C7C7C7;
+}
+
+.fotodiv {
+    width: 405px;
+    height: 411.408px;
+    flex-shrink: 0;
+    background-color: #FFFEFE;
+    display: flex;
+    align-items: center;
+}
+
+/* Add any additional styling for the image if needed */
