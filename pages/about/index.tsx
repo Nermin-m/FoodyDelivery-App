@@ -7,5 +7,5 @@ const Index = () => {
         </div>
     );
 };
-
+//About Page
 export default Index;
