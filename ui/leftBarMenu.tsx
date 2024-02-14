@@ -35,10 +35,10 @@ export default function LeftBarMenu() {
 
     const links = [
         { text: <FormattedMessage id='home' />, link: '/' },
-        { text: <FormattedMessage id='Restaurants' />, link: '/restaurants' },
+        { text: <FormattedMessage id='Restaurants' />, link: '/resturants' },
         { text: <FormattedMessage id='about' />, link: '/about-us' },
         { text: <FormattedMessage id='Howitworks' />, link: '/how-it-works' },
-        { text: <FormattedMessage id='faqs' />, link: '/faqs' }
+        { text: <FormattedMessage id='faqs' />, link: '/FAQs' }
     ];
 
     const list = () => (
