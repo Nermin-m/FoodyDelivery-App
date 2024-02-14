@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { FormattedMessage } from 'react-intl';
 import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
 import Button from '@mui/material/Button';
@@ -32,37 +33,39 @@ export default function LeftBarMenu() {
         setState({ ...state, left: open });
     };
 
+    const links = [
+        { text: <FormattedMessage id='home' />, link: '/' },
+        { text: <FormattedMessage id='Restaurants' />, link: '/restaurants' },
+        { text: <FormattedMessage id='about' />, link: '/about-us' },
+        { text: <FormattedMessage id='Howitworks' />, link: '/how-it-works' },
+        { text: <FormattedMessage id='faqs' />, link: '/faqs' }
+    ];
+
     const list = () => (
         <Box
             sx={{ width: 250 }}
             role="presentation"
             onClick={toggleDrawer(false)}
             onKeyDown={toggleDrawer(false)}
-            style={{display:'flex',flexDirection:'column',alignItems:'center'}}
+            style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}
         >
-            <List className='flex flex-col w-full '>
-                {[
-                    { text: 'Home', link: '/' },
-                    { text: 'Restaurants', link: '/resturants' },
-                    { text: 'About us', link: '/about-us' },
-                    { text: 'How it Works', link: '/how-it-works' },
-                    { text: 'FAQs', link: '/faqs' }
-                ].map(({ text, link }, index) => (
-                    <ListItem key={text} disablePadding className='mt-7 ' button>
+            <List>
+                {links.map(({ text, link }, index) => (
+                    <ListItem key={text} disablePadding button>
                         <Link href={link}>
                             <ListItemButton>
-                                <ListItemIcon   >
+                                <ListItemIcon>
                                     {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-                                </ListItemIcon >
-                                <ListItemText primary={text}  />
+                                </ListItemIcon>
+                                <ListItemText primary={text} />
                             </ListItemButton>
                         </Link>
                     </ListItem>
                 ))}
             </List>
             <Divider />
-            <Link href={'/login'}>
-                <Button className='px-4 text-white py-2 bg-main-red mt-7'>Sign Up</Button>
+            <Link href='/login'>
+                <Button className='px-4 text-white py-2 bg-main-red mt-3'>Sign Up</Button>
             </Link>
         </Box>
     );
