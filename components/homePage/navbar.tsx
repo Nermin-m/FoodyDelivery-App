@@ -8,6 +8,7 @@ import Language from "../../ui/language";
 import AccountMenu from "../../ui/userAccount";
 import Search from "../../ui/search";
 import LeftBarMenu from "../../ui/leftBarMenu";
+import {FormattedMessage} from "react-intl";
 
 function Navbar() {
     return (
@@ -20,17 +21,17 @@ function Navbar() {
                 </div>
                 <div className='lg:flex  lg:w-2/4 lg:justify-evenly lg:items-center md:space-x-1 hidden'>
                     <div><Link className='lg:text-lg md:text-[16px] text-gray hover:text-main-red font-roboto '
-                               href={'/'}>Home</Link></div>
+                               href={'/'}><FormattedMessage id='home'/> </Link></div>
                     <div><Link className='lg:text-lg md:text-[16px] text-gray hover:text-main-red font-roboto'
-                               href={'/resturants'}>Restaurants</Link></div>
+                               href={'/resturants'}><FormattedMessage id='Restaurants'/></Link></div>
                     <div><Link className='lg:text-lg md:text-[16px] text-gray hover:text-main-red font-roboto'
-                               href={'/about-us'}>About us</Link></div>
+                               href={'/about-us'}><FormattedMessage id='about'/></Link></div>
                     <div><Link
                         className='lg:text-lg  md:text-[16px] text-gray hover:text-main-red font-roboto'
-                        href={'/how-it-works'}>How it works</Link></div>
+                        href={'/how-it-works'}><FormattedMessage id='Howitworks'/></Link></div>
                     <div><Link
                         className='lg:text-lg sm:text-[14px] md:text-[16px] text-gray hover:text-main-red font-roboto'
-                        href={'/FAQs'}>FAQs</Link></div>
+                        href={'/FAQs'}><FormattedMessage id='faqs'/></Link></div>
                 </div>
 
                 <div className='flex lg:w-1/4 w-1/2  items-center lg:space-x-5 md:space-x-2 space-x-1 justify-end'>
@@ -38,8 +39,7 @@ function Navbar() {
                         <Language></Language>
                     </div>
                     <div>
-                        <Link href={'/login'}><Button variant="contained" className='lg:text-l lg:block lg:rounded-2xl bg-main-red lg:px-9 lg:py-3 hidden'>Sign
-                            Up</Button></Link>
+                        <Link href={'/login'}><Button variant="contained" className='lg:text-l lg:block lg:rounded-2xl bg-main-red lg:px-9 lg:py-3 hidden'><FormattedMessage id='registr'/></Button></Link>
                     </div>
 
                     <div className='bg-main-red  lg:p-2 p-2 rounded-3xl  text-white cursor-pointer '>

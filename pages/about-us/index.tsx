@@ -10,14 +10,16 @@ import orangeBackground from '../../images/orangeBackground.svg'
 import Image from "next/image";
 import Link from "next/link";
 import ClientLayout from "../../layoutClient/clientLayout";
+import {FormattedMessage} from "react-intl";
 const Index:NextPage = () => {
     return (
         <ClientLayout>
         <div>
 <div className='flex lg:pl-40 flex-col lg:flex-row lg:mt-24 lg:space-x-64'>
     <div className='lg:w-[700px] w-full space-y-6 lg:p-0 p-7 lg:space-y-12'>
-        <p className='lg:text-5xl text-3xl font-bold'>About Us</p>
-        <p className='lg:text-2xl text-[16px] lg:leading-[50px]'> Delivery May Be Extended During Sale Periods. Please Refer To The Checkout Page For An Updated Estimate For Your Location. Kindly Note That Once You Have Placed An Order, It Is No Longer Possible To Modify Your Order. Taxes And Duties Are Included In All Product Prices.It Is Possible To Place An Order With Shipment To A Different Address Than Your Home Or Billing Address When Paying With A Credit Card. Please Note That Klarna Payments Require That Your Order Is Shipped To Your Registered Home Address.
+        <p className='lg:text-5xl text-3xl font-bold'><FormattedMessage id='aboutPage'/></p>
+        <p className='lg:text-2xl text-[16px] lg:leading-[50px]'>
+            <FormattedMessage id='bigLorem'/>
         </p>
     </div>
     <div className='lg:flex hidden lg:flex-col' >
