@@ -7,13 +7,14 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Button from '@mui/material/Button';
 import ClientLayout from "../../layoutClient/clientLayout";
+import {FormattedMessage} from "react-intl";
 
 const Index: NextPage = () => {
     return (
         <>
             <ClientLayout>
             <div className='flex justify-center items-center lg:mb-32 mb-7 mt-14 '>
-                <p className='lg:text-6xl text-3xl font-bold'>Faq's</p>
+                <p className='lg:text-6xl text-3xl font-bold'><FormattedMessage id='faqs'/> </p>
             </div>
             <div className='lg:w-2/4 lg:mx-auto lg:p-0 p-8 lg:h-[560px]'>
                 <Accordion>
@@ -22,10 +23,10 @@ const Index: NextPage = () => {
                         aria-controls="panel1-content"
                         id="panel1-header"
                     >
-                        How to contact with Customer Service?
+                      <FormattedMessage id='costume'/>
                     </AccordionSummary>
                     <AccordionDetails>
-                        Our Customer Experience Team is available 7 days a week and we offer 2 ways to get in contact.Email and Chat . We try to reply quickly, so you need not to wait too long for a response!.
+                       <FormattedMessage id='faqsMain'/>
                     </AccordionDetails>
                 </Accordion>
                 <Accordion>

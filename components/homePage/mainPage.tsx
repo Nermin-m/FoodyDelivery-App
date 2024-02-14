@@ -7,6 +7,7 @@ import pizza from '../../images/pizza.svg';
 import cheeseBurger from '../../images/cheeseBurger.svg';
 import Link from "next/link";
 import styles from'../../styles/Home.module.css';
+import {FormattedMessage} from "react-intl";
 
 function MainPage() {
     return (
@@ -14,12 +15,12 @@ function MainPage() {
             <div className='lg:w-10/12 w-full h-screen lg:mx-auto  lg:my-4 p-7 bg-main-gray lg:h-screen lg:flex-row lg:flex lg:rounded-xl'>
                 <div className='lg:w-6/12 h-auto flex flex-col lg:space-y-24 space-y-9 justify-center items-start'>
                     <div>
-                        <p className='font-bold lg:text-start lg:text-6xl text-2xl mx-auto text-center mt-6 text-neutral-800 font-sans'>Our Food site makes it easy to find local Food</p>
+                        <p className='font-bold lg:text-start lg:text-6xl text-2xl mx-auto text-center mt-6 text-neutral-800 font-sans'><FormattedMessage id='ourSite'/></p>
                     </div>
-                    <div className='lg:text-2xl lg:flex font-roboto lg:leading-10 leading-7 text-md '>Foody is a US-based recipe marketplace that provides an opportunity for global chefs and popular culinary influencers to sell their recipes and for foodies to buy them. Nowadays everyone who likes cooking and desires to recreate the dishes of worldwide cooking talent can simply join the platform and get inspired.</div>
+                    <div className='lg:text-2xl lg:flex font-roboto lg:leading-10 leading-7 text-md '><FormattedMessage id='mainFood'/></div>
                     <div className='flex lg:flex-row flex-col mx-auto lg:mx-0 lg:space-x-5 lg:space-y-0 space-y-3'>
-                        <Link href={'/register'}><Button variant="contained" className="bg-main-red lg:w-52 lg:h-16 w-36 h-11">Register</Button></Link>
-                        <Link href={'/resturants'}><Button variant="contained" color="inherit" className="lg:w-52 lg:h-16 w-36 h-11">Order now</Button></Link>
+                        <Link href={'/register'}><Button variant="contained" className="bg-main-red lg:w-52 lg:h-16 w-36 h-11"><FormattedMessage id='registr'/> </Button></Link>
+                        <Link href={'/resturants'}><Button variant="contained" color="inherit" className="lg:w-52 lg:h-16 w-36 h-11"><FormattedMessage id='order'/></Button></Link>
                     </div>
                 </div>
                 <div className='lg:w-6/12 lg:p-7 relative '>
