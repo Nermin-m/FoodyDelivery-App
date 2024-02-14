@@ -1,13 +1,31 @@
-import React from 'react';
-import {NextPage} from "next";
-import {TextField} from "@mui/material";
+import * as React from 'react';
+import Paper from '@mui/material/Paper';
+import InputBase from '@mui/material/InputBase';
+import Divider from '@mui/material/Divider';
+import IconButton from '@mui/material/IconButton';
+import MenuIcon from '@mui/icons-material/Menu';
+import SearchIcon from '@mui/icons-material/Search';
+import DirectionsIcon from '@mui/icons-material/Directions';
 
-const Search:NextPage = () => {
+export default function Search() {
     return (
-        <div>
-         <div><TextField className='ml-8' id="outlined-basic" label="Search..."  variant="outlined"></TextField></div>
-        </div>
-    );
-};
+        <Paper
+            component="form"
+            sx={{ p: '2px 4px', display: 'flex', alignItems: 'center', width: 400 }}
+        >
+            <IconButton sx={{ p: '10px' }} aria-label="menu">
 
-export default Search;
+            </IconButton>
+            <InputBase
+                sx={{ ml: 1, flex: 1 }}
+                placeholder="Search Resturants"
+                inputProps={{ 'aria-label': 'search google maps' }}
+            />
+
+            <Divider sx={{ height: 28, m: 0.5 }} orientation="vertical" />
+            <IconButton color="primary" sx={{ p: '10px' }} aria-label="directions">
+                <DirectionsIcon />
+            </IconButton>
+        </Paper>
+    );
+}

@@ -30,7 +30,7 @@ function Navbar() {
                         href={'/how-it-works'}>How it works</Link></div>
                     <div><Link
                         className='lg:text-lg sm:text-[14px] md:text-[16px] text-gray hover:text-main-red font-roboto'
-                        href={'/faqs'}>FAQs</Link></div>
+                        href={'/FAQs'}>FAQs</Link></div>
                 </div>
 
                 <div className='flex lg:w-1/4 w-1/2  items-center lg:space-x-5 md:space-x-2 space-x-1 justify-end'>
