@@ -11,7 +11,7 @@ function Footer() {
     return (
         <>
         <div className='h-auto w-full lg:flex hidden flex-col  items-center absolute'>
-           <div className='flex space-x-12 relative top-16 justify-center rounded-2xl w-2/4 h-[300px] bg-black2'>
+           <div className='flex lg:space-x-24 space-x-14 relative top-16 justify-center rounded-2xl w-3/4 h-[300px] bg-black2'>
 <Image src={pizzaDiscover} alt={'pizzaDiscover'}></Image>
                <div className='flex flex-col  justify-around items-center'>
                    <p className='text-4xl  w-[330px] text-white text-center'>Discover Restaurants

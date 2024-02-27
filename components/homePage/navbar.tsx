@@ -13,28 +13,28 @@ import { FormattedMessage } from "react-intl";
 function Navbar() {
     return (
         <div className=" w-full h-auto lg:w-10/12 lg:h-auto bg-main-gray p-2 lg:p-5 md:p-3 mx-0 my-0 lg:mx-auto lg:my-4 md:mx-0 md:my-0 lg:rounded-2xl ">
-            <div className=' w-full flex items-center space-x-1  '>
-                <div className='sm:w-1/2 lg:w-[200px] flex items-center justify-start space-x-3 ml-1'>
+            <div className=' w-full flex items-center space-x-1   '>
+                <div className='sm:w-1/2 lg:w-1/5 flex items-center justify-start space-x-3 ml-1'>
                     <div className='lg:hidden'><LeftBarMenu></LeftBarMenu></div>
-                    <div><Image src={logo} alt={'Logo'} className='lg:w-32 lg:h-11  h-auto bg-pink mt-2'></Image>
+                    <div><Image src={logo} alt={'Logo'} className='lg:w-32 lg:h-11  h-auto  mt-2'></Image>
                     </div>
                 </div>
-                <div className='lg:flex lg:w-2/4 md:2/4 bg-yellow lg:justify-evenly  lg:items-center  hidden'>
-                    <div><Link className='lg:text-lg md:text-[16px] text-gray hover:text-main-red font-roboto '
+                <div className='lg:flex lg:w-2/5   lg:justify-between  lg:items-center  hidden'>
+                    <div><Link className='lg:text-[20px] md:text-[16px] sm:text-[14px] text-gray hover:text-main-red font-roboto '
                         href={'/'}><FormattedMessage id='home' /> </Link></div>
-                    <div><Link className='lg:text-lg md:text-[16px] text-gray hover:text-main-red font-roboto'
+                    <div><Link className='lg:text-[20px] md:text-[16px] sm:text-[14px] text-gray hover:text-main-red font-roboto'
                         href={'/resturants'}><FormattedMessage id='Restaurants' /></Link></div>
-                    <div><Link className='lg:text-lg md:text-[16px] text-gray hover:text-main-red font-roboto'
+                    <div><Link className='lg:text-[20px] md:text-[16px] sm:text-[14px] text-gray hover:text-main-red font-roboto'
                         href={'/about-us'}><FormattedMessage id='about' /></Link></div>
                     <div><Link
-                        className='lg:text-lg  md:text-[16px] text-gray hover:text-main-red font-roboto'
+                        className='lg:text-[20px]  md:text-[16px] sm:text-[14px] text-gray hover:text-main-red font-roboto'
                         href={'/how-it-works'}><FormattedMessage id='Howitworks' /></Link></div>
                     <div><Link
-                        className='lg:text-lg sm:text-[14px] md:text-[16px] text-gray hover:text-main-red font-roboto'
+                        className='lg:text-[20px] sm:text-[14px] md:text-[16px] text-gray hover:text-main-red font-roboto'
                         href={'/FAQs'}><FormattedMessage id='faqs' /></Link></div>
                 </div>
 
-                <div className='flex sm:w-1/2  items-center space-x-1 sm:pr-5 justify-end'>
+                <div className='flex sm:w-1/2 lg:w-2/5  items-center lg:space-x-5 space-x-1 sm:pr-5 justify-end'>
                     <div className=' md:p-2 '>
                         <Language></Language>
                     </div>
