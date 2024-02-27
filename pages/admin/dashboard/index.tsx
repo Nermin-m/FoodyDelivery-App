@@ -1,12 +1,13 @@
 // Product.js
 
 import React from "react";
-import styles from '../styles/products.module.css';
+import styles from './dashboardPage.module.css';
 import Image from 'next/image';
-import Header from '../components/header'
-import Dashboard from "../components/dashboard";
-import Ealogo from '../components/eacamplogo';
-export default function Product() {
+import Header from '../../../component/header'
+import Dashboard from "../../../component/dashboard";
+import Ealogo from '../../../component/eacamplogo';
+import OrderLogo from '../../../public/ordersstatic.svg'
+export default function Index() {
     return (
         <>
 
@@ -21,7 +22,7 @@ export default function Product() {
                     <div className={styles.ordersmain}>
                         <p className={styles.orderstext}>Orders</p>
                         <p className={styles.imgText}>Projects by account</p>
-                        <img src="ordersstatic.svg" alt="" className={styles.ordersimg} />
+                        <Image src={OrderLogo} alt='order' className={styles.ordersimg}></Image>
                     </div>
                     <div className={styles.ellipseMain}>
                         <div className={styles.ellipse}>

@@ -1,7 +1,7 @@
 // Product.js
 
 import React from "react";
-import styles from '../../styles/header.module.css';
+import styles from '../styles2/header.module.css';
 import Image from 'next/image';
 
 

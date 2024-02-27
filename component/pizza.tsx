@@ -1,7 +1,7 @@
 // Pizza.js
 
 import React, { useState } from "react";
-import styles from '../../styles/pizza.module.css';
+import styles from '../styles2/pizza.module.css';
 import Image from "next/image";
 
 export default function Pizza() {

@@ -1,6 +1,6 @@
 // Import React and CSS module
 import React from "react";
-import styles from '../../styles/table.module.css';
+import styles from '../styles2/table.module.css';
 import Image from "next/image";
 
 // Table component
