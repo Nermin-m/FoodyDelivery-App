@@ -1,9 +1,9 @@
 import React from 'react';
 
-const LayoutAdmin = () => {
+const LayoutAdmin = ({ children }: { children: React.ReactNode }) => {
     return (
         <div>
-
+            <Header></Header>
         </div>
     );
 };

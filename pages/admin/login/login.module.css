@@ -50,10 +50,10 @@
     font-family: Roboto;
     font-size: 25px;
     font-weight: 500;
-    cursor:pointer;
+    cursor: pointer;
 }
 
-.logindiv { 
+.logindiv {
     display: flex;
     flex-direction: column;
     align-items: center;

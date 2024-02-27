@@ -1,10 +1,10 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Dashboard from "./dashboard/dashboard";
+import Index from "./login/index";
 const AdminDashboard: NextPage = () => {
   return (
     <div>
-      <Dashboard></Dashboard>
+      <Index></Index>
     </div>
   );
 };

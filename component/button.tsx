@@ -10,7 +10,7 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
-import styles from '../../styles/buttonMui.module.css';
+import styles from '../styles2/buttonMui.module.css'
 type Anchor = 'right';
 
 export default function TemporaryDrawer() {
@@ -37,11 +37,27 @@ export default function TemporaryDrawer() {
       <div className={styles.Clickible}>
         <div className={styles.MainDiv}>
           <p className={styles.mainDivP}>Add Category</p>
+          <div className={styles.Uploader}>
+            <p className={styles.UploadTxt}>Upload Image</p>
+            <div className={styles.uploadImage}>
+              <div>
+                <img src="/upload.svg" alt="" />
+                <p className={styles.UploadImgTxt}>Upload</p>
+              </div>
+
+            </div>
+          </div>
+          <div className={styles.Clickble2}>
+            <p>
+              Add your Category information</p>
+
+            <div className={styles.clicker3}>
+              <p>Name</p>
+              <input type="text" />
+            </div>
+          </div>
         </div>
-        <div>
-          <p>Upload Image</p>
-          <div className={styles.ImageUploader}></div>
-        </div>
+
 
       </div>
     </>

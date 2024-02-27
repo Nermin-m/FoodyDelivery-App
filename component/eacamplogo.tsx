@@ -1,6 +1,6 @@
 
 import React from "react";
-import styles from '../../styles/eacamplogo.module.css';
+import styles from '../styles2/eacamplogo.module.css';
 import Image from 'next/image';
 
 

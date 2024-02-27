@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import styles from '../../styles/resturant-card.module.css'
+import styles from '../styles2/resturant-card.module.css'
 export default function Resturant() {
     return (
 
