@@ -27,6 +27,7 @@ module.exports = {
       fontFamily: {
         sans: ['Graphik', 'sans-serif'],
         serif: ['Merriweather', 'serif'],
+        roboto:['system-ui']
       },
       spacing: {
         '128': '32rem',

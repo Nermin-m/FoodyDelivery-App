@@ -24,12 +24,12 @@ function MainPage() {
                     </div>
                 </div>
                 <div className='lg:w-6/12 lg:p-7 relative '>
-                    <div className={' lg:flex bg-main-black hidden lg:w-[700px] lg:h-[500px] lg:rounded-[150px] absolute top-28 sm:hidden'}></div>
-                    <div><Image className='lg:absolute lg:right-14 lg:top-0 lg:w-[1600px] w-full h-auto relative top-7' src={hamburgerImg} alt={'Hamburger'}></Image></div>
+                    <div className={' lg:flex bg-main-black hidden lg:w-[38rem] lg:h-[500px] lg:rounded-[150px] absolute top-28 sm:hidden'}></div>
+                    <div><Image className='lg:absolute lg:right-14 lg:top-0  h-auto relative top-7' src={hamburgerImg} alt={'Hamburger'}></Image></div>
                     <div className='absolute lg:top-[370px] lg:left-2 top-4'>
                         <div className={styles.animations}><Image src={fries} alt={'Fries'} className='lg:w-80 lg:h-24 w-26 h-14'></Image></div>
                     </div>
-                    <div className='absolute lg:left-[500px] lg:top-[100px] left-32 top-36'>
+                    <div className='absolute lg:left-96 lg:top-[100px] left-32 top-36'>
                         <div className={styles.animations}><Image src={pizza} alt={'Pizza'} className='lg:w-80 lg:h-24 w-26 h-14'></Image></div>
                     </div>
                     <div className='absolute lg:top-[580px] lg:right-14 top-64 right-40'>
