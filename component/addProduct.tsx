@@ -10,7 +10,7 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
-import styles from '../styles2/buttonMui.module.css'
+import styles from '../styles2/addProduct.module.css'
 type Anchor = 'right';
 
 export default function TemporaryDrawer() {
@@ -36,9 +36,9 @@ export default function TemporaryDrawer() {
     <>
       <div className={styles.Clickible}>
         <div className={styles.MainDiv}>
-          <p className={styles.mainDivP}>Add Category</p>
+          <p className={styles.mainDivP}>Add Product</p>
           <div className={styles.Uploader}>
-            <p className={styles.UploadTxt}>Upload Image</p>
+            <p className={styles.UploadTxt}>Upload your product image</p>
             <div className={styles.uploadImage}>
               <div>
                 <img src="/upload.svg" alt="" />
@@ -49,15 +49,33 @@ export default function TemporaryDrawer() {
           </div>
           <div className={styles.Clickble2}>
             <p>
-              Add your Category information</p>
+              Add your Product description and necessary information</p>
 
             <div className={styles.clicker3}>
-              <p>Name</p>
-              <input type="text" />
-            </div>
-          </div>
-        </div>
+              <div>
+                <p>Name</p>
+                <input type="text" />
+              </div>
+              <div>
+                <p >Description</p>
+                <input className={styles.inpDes} type="text" />
+              </div>
+              <div>
 
+                <p>Price</p>
+                <input type="text" />
+              </div>
+              <div>
+                <p>Resturants</p>
+                <input type="text" name="" id="" />
+              </div>
+
+
+            </div>
+
+          </div>
+
+        </div>
         <div className={styles.buttons}>
           <button className={styles.button1}>Cancel</button>
           <button className={styles.button2}>Create  Product</button>
@@ -69,7 +87,7 @@ export default function TemporaryDrawer() {
 
   return (
     <div>
-      <Button onClick={toggleDrawer('right', true)}>+ Add Category</Button>
+      <Button className={styles.ButtonBack} onClick={toggleDrawer('right', true)}>+Add Product</Button>
       <Drawer
         anchor="right"
         open={state.right}

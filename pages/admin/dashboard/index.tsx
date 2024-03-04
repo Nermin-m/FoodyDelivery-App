@@ -76,7 +76,7 @@ export default function Index() {
 
             <section>
                 <Ealogo></Ealogo>
-
+                <link rel="stylesheet" href="'../../" />
                 <div className={styles.layout2}>
                     <p>Assigned Risks</p>
                     <p>There are no risks assigned.</p>

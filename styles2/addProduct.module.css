@@ -1,6 +1,6 @@
 .MainDiv {
     width: 948px;
-    height: 721px;
+    height: 821px;
     background: rgb(56, 57, 78);
 }
 
@@ -16,6 +16,26 @@
     margin-top: 25px;
 }
 
+.ButtonBack {
+    box-sizing: border-box;
+    border: 2px solid rgb(192, 53, 162);
+    border-radius: 14px;
+
+    box-shadow: 0px 4px 4px 0px rgba(39, 174, 96, 0.2);
+    background: rgb(192, 53, 162);
+    /* Background */
+    width: 157px;
+    height: 28px;
+
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.25px;
+    text-align: center;
+
+}
 
 .Clickible {
     background: rgb(56, 57, 78);
@@ -51,7 +71,7 @@
 
 .Uploader {
     display: flex;
-    gap: 183px;
+    gap: 150px;
 }
 
 .UploadTxt {
@@ -63,6 +83,7 @@
     letter-spacing: 1%;
     text-align: left;
     margin-left: 30px;
+    margin-top: 10px;
 }
 
 
@@ -84,36 +105,31 @@
     align-items: center;
     background: rgb(67, 68, 90);
     width: 526px;
-    justify-content: center;
-    height: 161px;
+    height: 511px;
+    margin-left: 40px;
     gap: 20px;
+    justify-content: center;
+    border-radius: 14px;
+
+    background: rgb(67, 68, 90);
+
+
 }
+
 
 .clicker3 input {
     border-radius: 14px;
 
     background: rgb(90, 91, 112);
     width: 474px;
-    height: 46px;
+    height: 36px;
     border: none;
-}
-
-.clicker3 p {
-    color: rgb(199, 199, 199);
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 1%;
-    text-align: left;
-    margin-left: -415px;
 }
 
 .Clickble2 {
     display: flex;
-    gap: 55px;
+
     margin-top: 88px;
-    margin-left: 22px;
 }
 
 .Clickble2 p {
@@ -124,7 +140,15 @@
     line-height: 24px;
     letter-spacing: 1%;
     text-align: left;
+    width: 300px;
+    margin-left: 40px;
 }
+
+
+.inpDes {
+    padding-top: 200px;
+}
+
 .button1 {
     box-sizing: border-box;
     border: 2px solid rgb(56, 57, 78);
@@ -148,7 +172,6 @@
 }
 
 .buttons {
-    margin-top: -50px;
     display: flex;
     align-items: center;
     justify-content: space-around;
