@@ -5,6 +5,11 @@
 
 
 
+.Background {
+    background: rgb(30, 30, 48);
+    height: 142vh;
+}
+
 .orders {
     /* Background */
     position: absolute;

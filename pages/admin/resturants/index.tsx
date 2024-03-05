@@ -9,6 +9,8 @@ import ResturantCard from "../../../component/resturant-card";
 export default function Index() {
     return (
         <>
+            
+            <div className={styles.Background}>
             <Header></Header>
             <Dashboard></Dashboard>
             <EaLogo></EaLogo>
@@ -43,7 +45,7 @@ export default function Index() {
                 <ResturantCard></ResturantCard>
 
             </section>
-
+            </div>
 
         </>
     );

@@ -10,27 +10,30 @@ import Pizza from "../../../component/pizza";
 export default function Index() {
     return (
         <>
-            <Header></Header>
-            <Dashboard></Dashboard>
-            <section>
-                <div className={styles.filterMenu}>
-                    <p>Products</p>
-                </div>
-            </section>
+            <div className={styles.Background}>
 
-            <section className={styles.section}>
-                <Pizza></Pizza>
-                <Pizza></Pizza>
-                <Pizza></Pizza>
-                <Pizza></Pizza>
-                <Pizza></Pizza>
-                <Pizza></Pizza>
-                <Pizza></Pizza>
-                <Pizza></Pizza>
-            </section>
 
-            <EaLogo></EaLogo>
+                <Header></Header>
+                <Dashboard></Dashboard>
+                <section>
+                    <div className={styles.filterMenu}>
+                        <p>Products</p>
+                    </div>
+                </section>
 
+                <section className={styles.section}>
+                    <Pizza></Pizza>
+                    <Pizza></Pizza>
+                    <Pizza></Pizza>
+                    <Pizza></Pizza>
+                    <Pizza></Pizza>
+                    <Pizza></Pizza>
+                    <Pizza></Pizza>
+                    <Pizza></Pizza>
+                </section>
+
+                <EaLogo></EaLogo>
+            </div>
         </>
     );
 }

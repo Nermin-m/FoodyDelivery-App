@@ -10,6 +10,7 @@ import OrderLogo from '../../../public/ordersstatic.svg'
 export default function Index() {
     return (
         <>
+            <div className={styles.Background}>
 
 
 
@@ -87,6 +88,7 @@ export default function Index() {
                         <p>There are no action items assigned.</p>
                     </div>
                 </section>
+            </div>
         </>
     );
 }

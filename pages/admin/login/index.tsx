@@ -5,6 +5,9 @@ import Image from 'next/image';
 export default function Index() {
     return (
         <>
+        <div className={styles.Background}>
+
+       
             <header>
                 <p className={styles.text}>Foody <span className={styles.nokta}>.</span></p>
             </header>
@@ -22,6 +25,7 @@ export default function Index() {
                     </div>
                 </div>
             </section>
+            </div>
         </>
     );
 }

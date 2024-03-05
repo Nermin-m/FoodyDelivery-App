@@ -9,6 +9,10 @@
     margin-left: 300px;
     margin-top: 130px;
 }
+.Background {
+    background: rgb(30, 30, 48);
+    height: 142vh;
+}
 
 /* Header cell styling */
 .TableHead {

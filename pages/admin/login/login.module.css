@@ -9,6 +9,13 @@
     line-height: 24px;
     letter-spacing: 0.84px;
     margin-left: 30px;
+    padding-top: 20px;
+    
+}
+
+.Background {
+    background: rgb(30, 30, 48);
+    height: 100vh;
 }
 
 .nokta {
