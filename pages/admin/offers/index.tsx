@@ -4,7 +4,7 @@ import styles from './offers.module.css'
 import Dashboard from "../../../component/dashboard";
 import Header from "../../../component/header";
 import EaLogo from "../../../component/eacamplogo";
-
+import AddOffer from '../../../component/addOffer'
 export default function Index() {
     return (
         <>
@@ -15,7 +15,7 @@ export default function Index() {
             <section>
                 <div className={styles.offers}>
                     <p>Offers</p>
-                    <button>+     ADD OFFER</button>
+                    <AddOffer></AddOffer>
                 </div>
             </section>
 
