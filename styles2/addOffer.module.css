@@ -4,6 +4,8 @@
     background: rgb(56, 57, 78);
 }
 
+
+
 .mainDivP {
     color: rgb(199, 199, 199);
     font-family: Roboto;
@@ -51,7 +53,8 @@
 
 .Uploader {
     display: flex;
-    gap: 183px;
+    gap: 253px;
+    margin-left: 10px;
 }
 
 .UploadTxt {
@@ -62,7 +65,7 @@
     line-height: 24px;
     letter-spacing: 1%;
     text-align: left;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 
@@ -161,3 +164,175 @@
     text-align: center;
 }
 
+.main {
+    width: 948px;
+    height: 150%;
+    background: rgb(56, 57, 78);
+
+}
+
+.headerName {
+    color: rgb(199, 199, 199);
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1%;
+    text-align: left;
+    /* Add Restuarant */
+    width: 305.63px;
+    height: 32px;
+    margin-left: 30px;
+    margin-top: 28px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+
+.UploadMenu {
+    display: flex;
+    justify-content: space-around;
+    gap: 140px;
+    margin-top: 33px;
+}
+
+.UploadCard {
+    display: flex;
+    flex-direction: column;
+    border-radius: 14px;
+    background: rgb(67, 68, 90);
+    width: 526px;
+    height: 122px;
+    align-items: center;
+    padding-top: 32px;
+
+}
+
+.UploadCard img {
+    width: 60px;
+    height: 40px;
+}
+
+.UploadCard p {
+    color: rgb(199, 199, 199);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1%;
+    text-align: left;
+
+}
+
+
+.details {
+    display: flex;
+    gap: 60px;
+    margin-left: 30px;
+    margin-top: 70px;
+}
+
+.detailsDes {
+    color: rgb(199, 199, 199);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1%;
+    text-align: left;
+    width: 300px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+.inputs p {
+    color: rgb(199, 199, 199);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1%;
+    text-align: left;
+}
+
+.inputs input {
+    border-radius: 14px;
+    background: rgb(90, 91, 112);
+    border: none;
+    width: 478px;
+    height: 46px;
+}
+
+.inputBack {
+    border-radius: 14px;
+   
+    background: rgb(67, 68, 90);
+    width: 526px;
+    height: 300px;
+}
+
+.AllInputs {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+
+.buttons {
+    display: flex;
+    gap: 40px;
+    margin-top: 70px;
+    justify-content: center;
+}
+
+
+.button1 {
+    box-sizing: border-box;
+    border: 2px solid rgb(56, 57, 78);
+    border-radius: 14px;
+
+    box-shadow: 0px 4px 4px 0px rgba(39, 174, 96, 0.2);
+    background: rgb(67, 68, 90);
+    width: 400px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.25px;
+    text-align: center;
+}
+
+.button2 {
+    box-sizing: border-box;
+    border: 2px solid rgb(192, 53, 162);
+    border-radius: 14px;
+    width: 400px;
+    height: 50px;
+    box-shadow: 0px 4px 4px 0px rgba(39, 174, 96, 0.2);
+    background: rgb(192, 53, 162);
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.25px;
+    text-align: center;
+}
+
+
+.inp2 {
+
+    width: 474px !important;
+    height: 99px !important;
+}

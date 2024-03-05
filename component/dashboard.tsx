@@ -40,7 +40,7 @@ export default function Dashboard() {
 
                     <div className={styles.dashboard1}>
                         <Image src="/dashboard7.svg" alt="Dashboard Image" width={20} height={20} />
-                        <Link href="/adminlogin" className={styles.text}>Log out</Link>
+                        <Link href="/admin" className={styles.text}>Log out</Link>
                     </div>
                 </div>
             </div>

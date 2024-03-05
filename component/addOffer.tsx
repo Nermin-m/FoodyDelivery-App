@@ -10,7 +10,7 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
-import styles from '../styles2/buttonMui.module.css'
+import styles from '../styles2/addOffer.module.css'
 type Anchor = 'right';
 
 export default function TemporaryDrawer() {
@@ -36,7 +36,7 @@ export default function TemporaryDrawer() {
         <>
             <div className={styles.Clickible}>
                 <div className={styles.MainDiv}>
-                    <p className={styles.mainDivP}>Add Category</p>
+                    <p className={styles.mainDivP}>Add Offer</p>
                     <div className={styles.Uploader}>
                         <p className={styles.UploadTxt}>Upload Image</p>
                         <div className={styles.uploadImage}>
@@ -47,18 +47,23 @@ export default function TemporaryDrawer() {
 
                         </div>
                     </div>
-                    <div className={styles.Clickble2}>
-                        <p>
-                            Add your Category information</p>
-                        <div className={styles.clicker3}>
+                    <div className={styles.details}>
+                        <p className={styles.detailsDes}>
+                            Add your Offer information</p>
+                        <div className={styles.inputBack}>
+                            <div className={styles.AllInputs}>
+                                <div className={styles.inputs}>
+                                    <p>Title</p>
+                                    <input type="text" />
+                                </div>
+                                <div className={styles.inputs}>
+                                    <p>Desciription</p>
+                                    <input type="text" className={styles.inp2} />
+                                </div>
 
 
-                            <div className={styles.clicker3}>
-                                <p>Name</p>
-                                <input type="text" />
                             </div>
-                                <p>Cuisine</p>
-                                <input type="text" className={"styles.InputCui"}/>
+
                         </div>
                     </div>
                 </div>
@@ -74,7 +79,7 @@ export default function TemporaryDrawer() {
 
     return (
         <div>
-            <Button onClick={toggleDrawer('right', true)}>+ Add Category</Button>
+            <Button onClick={toggleDrawer('right', true)}>+ Add Offer</Button>
             <Drawer
                 anchor="right"
                 open={state.right}

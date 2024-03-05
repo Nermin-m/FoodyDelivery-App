@@ -47,32 +47,31 @@ export default function TemporaryDrawer() {
 
             </div>
           </div>
-          <div className={styles.Clickble2}>
-            <p>
+          <div className={styles.details}>
+            <p className={styles.detailsDes}>
               Add your Product description and necessary information</p>
+            <div className={styles.inputBack}>
+              <div className={styles.AllInputs}>
+                <div className={styles.inputs}>
+                  <p>Name</p>
+                  <input type="text" />
+                </div>
+                <div className={styles.inputs}>
+                  <p>Description</p>
+                  <input type="text" className={styles.inp2} />
+                </div>
 
-            <div className={styles.clicker3}>
-              <div>
-                <p>Name</p>
-                <input type="text" />
+                <div className={styles.inputs}>
+                  <p>Price</p>
+                  <input type="text" />
+                </div>
+                <div className={styles.inputs}>
+                  <p>Resturants</p>
+                  <input type="text" />
+                </div>
               </div>
-              <div>
-                <p >Description</p>
-                <input className={styles.inpDes} type="text" />
-              </div>
-              <div>
-
-                <p>Price</p>
-                <input type="text" />
-              </div>
-              <div>
-                <p>Resturants</p>
-                <input type="text" name="" id="" />
-              </div>
-
 
             </div>
-
           </div>
 
         </div>

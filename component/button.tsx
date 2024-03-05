@@ -60,7 +60,7 @@ export default function TemporaryDrawer() {
 
         <div className={styles.buttons}>
           <button className={styles.button1}>Cancel</button>
-          <button className={styles.button2}>Create  Product</button>
+          <button className={styles.button2}>Create  Category</button>
         </div>
 
       </div>
