@@ -11,7 +11,10 @@
     border-radius: 14px;
     background: rgb(39, 40, 60);
 }
-
+.Background {
+    background: rgb(30, 30, 48);
+    height: 142vh;
+}
 .order p {
     color: rgba(242, 242, 242, 0.87);
     font-family: Roboto;

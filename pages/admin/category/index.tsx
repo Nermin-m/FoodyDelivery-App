@@ -9,6 +9,8 @@ export default function Index() {
     return (
 
         <>
+        <div className={styles.Background}>
+      
             <Header></Header>
             <Dashboard></Dashboard>
             <section className={styles.categorySection}>
@@ -19,7 +21,7 @@ export default function Index() {
                 </div>
             </section>
             <Table></Table>
-
+</div>
         </>
     );
 }

@@ -16,14 +16,11 @@ export default function Pizza() {
     };
 
     const handleRemovePizzaClick = () => {
-        // You can implement the logic to remove the pizza from the site here
-        // For example, you can make an API call to delete the pizza from the database.
-        // After removing the pizza, update the state to hide the pizza element.
+       
         setIsRemoved(true);
     };
 
     if (isRemoved) {
-        // If the pizza is removed, return null to render nothing
         return null;
     }
 

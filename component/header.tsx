@@ -3,8 +3,7 @@
 import React from "react";
 import styles from '../styles2/header.module.css';
 import Image from 'next/image';
-
-
+import AddProduct from './addProduct';
 export default function Header() {
     return (
         <header className={styles.header}>
@@ -12,11 +11,11 @@ export default function Header() {
                 <p className={styles.foodytext}>Foody<span className={styles.span}>.</span></p>
             </div>
             <div className={styles.headerend}>
-                <button className={styles.button}>+ ADD PRODUCT</button>
-                <p>
+                <AddProduct/>
+                <div className={styles.adminUser}> 
                     <img src="/adminImg.svg" alt="Admin Image" />
-                    Admin
-                </p>
+                    <p>Admin</p>
+                </div>
             </div>
         </header>
     )

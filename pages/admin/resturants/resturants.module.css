@@ -8,6 +8,11 @@
 
 }
 
+.Background {
+    background: rgb(30, 30, 48);
+    height: 142vh;
+}
+
 .ResturantType {
     border-radius: 14px;
 

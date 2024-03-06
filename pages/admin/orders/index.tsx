@@ -7,7 +7,10 @@ import EaLogo from "../../../component/eacamplogo";
 
 export default function Index() {
     return (
+
         <>
+       <div className={styles.Background}>
+       
             <Header></Header>
             <Dashboard></Dashboard>
             <EaLogo></EaLogo>
@@ -101,6 +104,8 @@ export default function Index() {
                     </tbody>
                 </table>
             </section>
+             
+       </div>
         </>
     )
 }

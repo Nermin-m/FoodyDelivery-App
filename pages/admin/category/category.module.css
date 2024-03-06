@@ -13,6 +13,11 @@
     background: rgb(39, 40, 60);
 }
 
+.Background {
+    background: rgb(30, 30, 48);
+    height: 101.2vh;
+}
+
 .categoryMain p {
     color: rgba(242, 242, 242, 0.87);
     font-family: Roboto;
@@ -22,6 +27,7 @@
     letter-spacing: 0.1px;
     text-align: left;
     margin-left: 12px;
+    margin-top: 20px;
 
 }
 

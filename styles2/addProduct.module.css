@@ -1,0 +1,418 @@
+.MainDiv {
+    width: 948px;
+    height: 821px;
+    background: rgb(56, 57, 78);
+}
+
+.mainDivP {
+    color: rgb(199, 199, 199);
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1%;
+    text-align: left;
+    margin-left: 28px;
+    margin-top: 25px;
+}
+
+.ButtonBack {
+    box-sizing: border-box;
+    border: 2px solid rgb(192, 53, 162);
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px 0px rgba(39, 174, 96, 0.2);
+    background: rgb(192, 53, 162);
+    width: 157px;
+    height: 28px;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.25px;
+    text-align: center;
+}
+
+.Clickible {
+    background: rgb(56, 57, 78);
+}
+
+.ImageUploader {
+    border-radius: 14px;
+    background: rgb(67, 68, 90);
+    width: 526px;
+    height: 122px;
+}
+
+.uploadImage {
+    width: 526px;
+    height: 122px;
+    border-radius: 14px;
+    background: rgb(67, 68, 90);
+}
+
+.uploadImage div {
+    margin-left: 250px;
+    margin-top: 20px;
+}
+
+.uploadImage img {
+    display: flex;
+    flex-direction: column;
+}
+
+.Uploader {
+    display: flex;
+    gap: 150px;
+}
+
+.UploadTxt {
+    color: rgb(199, 199, 199);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1%;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.UploadImgTxt {
+    color: rgb(199, 199, 199);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1%;
+    text-align: left;
+    margin-top: -5px;
+}
+
+.clicker3 {
+    display: flex;
+    flex-direction: column;
+    border-radius: 14px;
+    align-items: center;
+    background: rgb(67, 68, 90);
+    width: 526px;
+    height: 511px;
+    margin-left: 40px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.clicker3 input {
+    border-radius: 14px;
+    background: rgb(90, 91, 112);
+    width: 474px;
+    height: 36px;
+    border: none;
+}
+
+.Clickble2 {
+    display: flex;
+    margin-top: 88px;
+}
+
+.Clickble2 p {
+    color: rgb(199, 199, 199);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1%;
+    text-align: left;
+    width: 300px;
+    margin-left: 40px;
+}
+
+.inpDes {
+    padding-top: 200px;
+}
+
+.button1,
+.button2 {
+    box-sizing: border-box;
+    border-radius: 14px;
+    box-shadow: 0px 4px 4px 0px rgba(39, 174, 96, 0.2);
+    width: 400px;
+    height: 50px;
+}
+
+.button1 {
+    border: 2px solid rgb(56, 57, 78);
+    background: rgb(67, 68, 90);
+    color: rgb(255, 255, 255);
+}
+
+.button2 {
+    border: 2px solid rgb(192, 53, 162);
+    background: rgb(192, 53, 162);
+    color: rgb(255, 255, 255);
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.25px;
+    text-align: center;
+}
+
+.main {
+    width: 948px;
+    height: 150%;
+    background: rgb(56, 57, 78);
+}
+
+.headerName {
+    color: rgb(199, 199, 199);
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1%;
+    text-align: left;
+    width: 305.63px;
+    height: 32px;
+    margin-left: 30px;
+    margin-top: 28px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.UploadMenu {
+    display: flex;
+    justify-content: space-around;
+    gap: 140px;
+    margin-top: 33px;
+}
+
+.UploadCard {
+    display: flex;
+    flex-direction: column;
+    border-radius: 14px;
+    background: rgb(67, 68, 90);
+    width: 526px;
+    height: 122px;
+    align-items: center;
+    padding-top: 32px;
+}
+
+.UploadCard img {
+    width: 60px;
+    height: 40px;
+}
+
+.UploadCard p {
+    color: rgb(199, 199, 199);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1%;
+    text-align: left;
+}
+
+.detailsDes {
+    color: rgb(199, 199, 199);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1%;
+    text-align: left;
+    width: 237px;
+    height: 77px
+}
+
+.details {
+    display: flex;
+    gap: 100px;
+    margin-left: 30px;
+    margin-top: 70px;
+}
+
+
+
+.main {
+    width: 948px;
+    height: 150%;
+    background: rgb(56, 57, 78);
+
+}
+
+.headerName {
+    color: rgb(199, 199, 199);
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1%;
+    text-align: left;
+    /* Add Restuarant */
+    width: 305.63px;
+    height: 32px;
+    margin-left: 30px;
+    margin-top: 28px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+
+.UploadMenu {
+    display: flex;
+    justify-content: space-around;
+    gap: 140px;
+    margin-top: 33px;
+}
+
+.UploadCard {
+    display: flex;
+    flex-direction: column;
+    border-radius: 14px;
+    background: rgb(67, 68, 90);
+    width: 526px;
+    height: 122px;
+    align-items: center;
+    padding-top: 32px;
+
+}
+
+.UploadCard img {
+    width: 60px;
+    height: 40px;
+}
+
+.UploadCard p {
+    color: rgb(199, 199, 199);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1%;
+    text-align: left;
+
+}
+
+
+
+.details {
+    display: flex;
+    gap: 110px;
+    margin-left: 30px;
+    margin-top: 70px;
+}
+
+.detailsDes {
+    color: rgb(199, 199, 199);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1%;
+    text-align: left;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+.inputs p {
+    color: rgb(199, 199, 199);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1%;
+    text-align: left;
+}
+
+.inputs input {
+    border-radius: 14px;
+    background: rgb(90, 91, 112);
+    border: none;
+    width: 478px;
+    height: 46px;
+}
+
+.inputBack {
+    border-radius: 14px;
+
+    background: rgb(67, 68, 90);
+    width: 526px;
+    height: 580px;
+}
+
+.AllInputs {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+
+.Buttons {
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+
+.button1 {
+    box-sizing: border-box;
+    border: 2px solid rgb(56, 57, 78);
+    border-radius: 14px;
+
+    box-shadow: 0px 4px 4px 0px rgba(39, 174, 96, 0.2);
+    background: rgb(67, 68, 90);
+    width: 400px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.25px;
+    text-align: center;
+}
+
+.button2 {
+    box-sizing: border-box;
+    border: 2px solid rgb(192, 53, 162);
+    border-radius: 14px;
+    width: 400px;
+    height: 50px;
+    box-shadow: 0px 4px 4px 0px rgba(39, 174, 96, 0.2);
+    background: rgb(192, 53, 162);
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.25px;
+    text-align: center;
+}
+
+
+.inp2 {
+
+    width: 474px !important;
+    height: 99px !important
+}
+
+;

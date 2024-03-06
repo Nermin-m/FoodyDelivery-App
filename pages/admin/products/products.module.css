@@ -6,12 +6,14 @@
     left: 300px;
     right: -300px;
     top: 80px;
-    bottom: -80px;
     border-radius: 14px;
-
+  
     background: rgb(39, 40, 60);
 }
-
+.Background {
+    background: rgb(30, 30, 48);
+    height: 142vh;
+}
 .filterMenu p {
     color: rgb(199, 199, 199);
     font-family: Roboto;
@@ -20,6 +22,7 @@
     line-height: 24px;
     letter-spacing: 1%;
     text-align: left;
+    margin-top: 25px;
     margin-left: 33px;
 }
 

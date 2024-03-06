@@ -4,17 +4,20 @@ import styles from './resturants.module.css';
 import Header from "../../../component/header";
 import Dashboard from "../../../component/dashboard";
 import EaLogo from "../../../component/eacamplogo";
+import AddResturan from '../../../component/addResturant'
 import ResturantCard from "../../../component/resturant-card";
 export default function Index() {
     return (
         <>
+            
+            <div className={styles.Background}>
             <Header></Header>
             <Dashboard></Dashboard>
             <EaLogo></EaLogo>
             <section className={styles.ResturantType}>
                 <div className={styles.ResturantIn}>
                     <p>Resturants</p>
-                    <button>+ ADD RESTAURANT </button>
+                    <AddResturan></AddResturan>
                 </div>
             </section>
             <section className={styles.section}>
@@ -42,7 +45,7 @@ export default function Index() {
                 <ResturantCard></ResturantCard>
 
             </section>
-
+            </div>
 
         </>
     );
