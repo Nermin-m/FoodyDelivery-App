@@ -1,0 +1,170 @@
+.profileAccount {
+    width: 83%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+
+    .profileNav {
+        width: 325px;
+        height: 430px;
+        border-radius: 5px;
+        background: rgb(243, 244, 246);
+        padding: 40px;
+
+        .account {
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            gap: 10px;
+            width: 233px;
+            height: 56px;
+            border-radius: 4px;
+            cursor: pointer;
+            padding: 15px;
+
+            .pp {
+                color: rgb(130, 130, 130);
+                font-family: sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 24px;
+                letter-spacing: 3%;
+                text-align: left;
+            }
+        }
+
+        .basket {
+            width: 233px;
+            height: 56px;
+            border-radius: 4px;
+            cursor: pointer;
+            padding: 15px;
+            margin: 7px 0;
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            gap: 10px;
+            width: 233px;
+            height: 56px;
+            border-radius: 4px;
+            padding: 15px;
+
+            .pp {
+                color: rgb(130, 130, 130);
+                font-family: sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 24px;
+                letter-spacing: 3%;
+                text-align: left;
+            }
+        }
+
+        .orders {
+            margin: 7px 0;
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            gap: 10px;
+            width: 233px;
+            height: 56px;
+            border-radius: 4px;
+            padding: 15px;
+            background: rgba(214, 54, 38, 0.1);
+            cursor: pointer;
+
+            .pp {
+                color: rgb(130, 130, 130);
+                color: rgb(214, 54, 38);
+                font-family: sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 24px;
+                letter-spacing: 3%;
+                text-align: left;
+            }
+        }
+
+        .checkout {
+            margin: 7px 0;
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            gap: 10px;
+            width: 233px;
+            height: 56px;
+            border-radius: 4px;
+            padding: 15px;
+            cursor: pointer;
+
+            .pp {
+                color: rgb(130, 130, 130);
+                font-family: sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 24px;
+                letter-spacing: 3%;
+                text-align: left;
+            }
+        }
+
+        .logout {
+            margin: 7px 0;
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            gap: 10px;
+            width: 233px;
+            height: 56px;
+            border-radius: 4px;
+            padding: 15px;
+            cursor: pointer;
+
+            .pp {
+                color: rgb(130, 130, 130);
+                font-family: sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 24px;
+                letter-spacing: 3%;
+                text-align: left;
+            }
+        }
+    }
+
+    .profile {
+        width: 1031px;
+        height: 601px;
+        background: rgb(243, 244, 246);
+        padding: 40px;
+
+        .head {
+            h2 {
+                color: rgb(79, 79, 79);
+                font-family: sans-serif;
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 24px;
+                letter-spacing: 3%;
+                text-align: left;
+                margin-bottom: 20px;
+            }
+        }
+
+        .orders {
+            table {
+
+                border: 1px solid gray;
+                background-color: white;
+
+                tr,
+                td,
+                th {
+                    padding: 10px;
+                    border: 1px solid gray;
+                }
+            }
+        }
+    }
+}

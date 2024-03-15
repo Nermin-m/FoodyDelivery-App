@@ -11,6 +11,7 @@ import Tooltip from '@mui/material/Tooltip';
 import PersonAdd from '@mui/icons-material/PersonAdd';
 import Settings from '@mui/icons-material/Settings';
 import Logout from '@mui/icons-material/Logout';
+import { useRouter } from 'next/router';
 
 export default function AccountMenu() {
     const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
@@ -18,6 +19,25 @@ export default function AccountMenu() {
     const handleClick = (event: React.MouseEvent<HTMLElement>) => {
         setAnchorEl(event.currentTarget);
     };
+
+    const router = useRouter()
+
+    const profileClick = () => {
+        router.push('/profile-f')
+    }
+
+    const orderClick = () => {
+        router.push('/order-f')
+    }
+
+    const basketClick = () => {
+        router.push('/basket-f')
+    }
+
+    const checkoutClick = () => {
+        router.push('/checkout-f')
+    }
+
     const handleClose = () => {
         setAnchorEl(null);
     };
@@ -72,24 +92,24 @@ export default function AccountMenu() {
                 transformOrigin={{ horizontal: 'right', vertical: 'top' }}
                 anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }}
             >
-                <MenuItem onClick={handleClose}>
+                <MenuItem onClick={profileClick}>
                     <Avatar /> Profile
                 </MenuItem>
-                <MenuItem onClick={handleClose}>
+                <MenuItem onClick={basketClick}>
                     <Avatar /> My Baskets
                 </MenuItem>
                 <Divider />
-                <MenuItem onClick={handleClose}>
+                <MenuItem onClick={orderClick}>
                     <ListItemIcon>
                         <PersonAdd fontSize="small" />
                     </ListItemIcon>
                     My Orders
                 </MenuItem>
-                <MenuItem onClick={handleClose}>
+                <MenuItem onClick={checkoutClick}>
                     <ListItemIcon>
                         <Settings fontSize="small" />
                     </ListItemIcon>
-                  Checkout
+                    Checkout
                 </MenuItem>
                 <MenuItem onClick={handleClose}>
                     <ListItemIcon>

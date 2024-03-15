@@ -1,0 +1,261 @@
+.profileAccount {
+    width: 83%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+
+    .profileNav {
+        width: 325px;
+        height: 430px;
+        border-radius: 5px;
+        background: rgb(243, 244, 246);
+        padding: 40px;
+
+        .account {
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            gap: 10px;
+            width: 233px;
+            height: 56px;
+            border-radius: 4px;
+            cursor: pointer;
+            padding: 15px;
+
+            .pp {
+                color: rgb(130, 130, 130);
+                font-family: sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 24px;
+                letter-spacing: 3%;
+                text-align: left;
+            }
+        }
+
+        .basket {
+            width: 233px;
+            height: 56px;
+            border-radius: 4px;
+            cursor: pointer;
+            padding: 15px;
+            margin: 7px 0;
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            gap: 10px;
+            width: 233px;
+            height: 56px;
+            border-radius: 4px;
+            padding: 15px;
+
+            .pp {
+                color: rgb(130, 130, 130);
+                font-family: sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 24px;
+                letter-spacing: 3%;
+                text-align: left;
+            }
+        }
+
+        .orders {
+            margin: 7px 0;
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            gap: 10px;
+            width: 233px;
+            height: 56px;
+            border-radius: 4px;
+            padding: 15px;
+
+            cursor: pointer;
+
+            .pp {
+                color: rgb(130, 130, 130);
+
+                font-family: sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 24px;
+                letter-spacing: 3%;
+                text-align: left;
+            }
+        }
+
+        .checkout {
+            margin: 7px 0;
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            gap: 10px;
+            width: 233px;
+            height: 56px;
+            border-radius: 4px;
+            padding: 15px;
+            cursor: pointer;
+            background: rgba(214, 54, 38, 0.1);
+
+            .pp {
+                color: rgb(214, 54, 38);
+
+                font-family: sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 24px;
+                letter-spacing: 3%;
+                text-align: left;
+            }
+        }
+
+        .logout {
+            margin: 7px 0;
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            gap: 10px;
+            width: 233px;
+            height: 56px;
+            border-radius: 4px;
+            padding: 15px;
+            cursor: pointer;
+
+            .pp {
+                color: rgb(130, 130, 130);
+                font-family: sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 24px;
+                letter-spacing: 3%;
+                text-align: left;
+            }
+        }
+    }
+
+    .profile {
+        width: 618px;
+        height: 430px;
+        background: rgb(243, 244, 246);
+        padding: 40px;
+
+        .head {
+            h2 {
+                color: rgb(79, 79, 79);
+                font-family: sans-serif;
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 24px;
+                letter-spacing: 3%;
+                text-align: left;
+                margin-bottom: 20px;
+            }
+        }
+
+        .checkout {
+            .input {
+                margin: 10px 0;
+
+                input {
+                    outline: none;
+                    margin-top: 6px;
+                    width: 420px;
+                    height: 35px;
+                    padding: 4px;
+                }
+            }
+
+            h4 {
+                margin-top: 25px;
+                font-weight: bold;
+            }
+
+            .radios {
+                display: flex;
+                align-items: start;
+                justify-content: space-around;
+
+                .radio1 {
+                    margin: 10px 0;
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+
+                    p {
+                        color: rgb(111, 207, 151);
+                    }
+                }
+
+                .radio2 {
+                    margin: 10px 0;
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+
+                    p {
+                        color: rgb(130, 130, 130);
+                    }
+                }
+            }
+
+            .btnCheckout {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 20px;
+                border-radius: 4px;
+                width: 420px;
+                height: 45px;
+                background: rgb(111, 207, 151);
+                font-weight: bold;
+                font-size: 17px;
+                color: white;
+
+            }
+        }
+
+
+    }
+
+    .orderss {
+        width: 397px;
+        height: 382px;
+        border-radius: 4px;
+        box-shadow: 0px 3px 8px -2px rgba(0, 0, 0, 0.2);
+        background: rgb(243, 244, 246);
+        padding: 30px;
+        color: gray;
+table{
+.caption{
+    font-weight: bold;
+}
+     tbody {
+            tr {
+                td {
+                    padding: 10px 0;
+
+                    span {
+                        font-weight: bold;
+                        font-size: 17px;
+                        margin-right: 7px;
+                    }
+                }
+            }
+        }
+
+        tfoot {
+            tr {
+                padding: 10px 0;
+                border-top: 2px solid gray;
+
+                td {  font-weight: bold;
+                    padding: 10px 0;
+                }
+            }
+        }
+}
+       
+    }
+}
